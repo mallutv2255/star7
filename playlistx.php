@@ -9,7 +9,7 @@ foreach($json["channels_list"] as $v)
 
     printf("#EXTINF:-1 tvg-id=\"%u\" group-title=\"%s\" tvg-language=\"%s\" tvg-logo=\"%s\",%s" . PHP_EOL, $v['id'], $v['category'], $v['language'], $v['logo'], $v['name']);
     
-    printf("http://hotstarx.herokuapp.com/telegram_iamsom5/star7.php?id=%s" . PHP_EOL . PHP_EOL, $v['id']);
+    printf("http://star2255.herokuapp.com//star7.php?id=%s" . PHP_EOL . PHP_EOL, $v['id']);
     
 }
 

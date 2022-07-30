@@ -50,7 +50,7 @@ $g = preg_replace("/(?=2022\/).*ts/", "ts.php?ts=".$elink."tracks-v1a1/"."$0", $
 if(strpos($g, "EXTM3U") !== false) {
 echo $g;
 } else {
-$retry = "star7.php?id=".$id."&e=.m3u8";
+$retry = "http://star2255.herokuapp.com/star7.php?id=".$id."&e=.m3u8";
 header("Location: ".$retry);
 }
 ?>
